@@ -1,0 +1,68 @@
+.container {
+	margin: 0 auto;
+	width: 500px;
+	border: 20px solid rgb(235,235,235);
+	
+	text-align: center;
+}
+.item {
+	font-family: Bebas Neue, arial, sans-serif;;
+	padding: 30px 0;
+	margin: 5px 15px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.item div {
+	display: flex;
+	align-items: center;
+	font-size: 30px;
+}
+.item input {
+	margin: 0;
+	margin-right: 7px;
+	margin-left: 10px;
+	
+}
+.item label {
+	text-transform: uppercase;
+	opacity: 0.7;
+	cursor: pointer;
+}
+.item p {
+	font-size: 15px;
+	color: grey;
+	margin-right: 10px;
+}
+select {
+	padding: 5px;
+	cursor: pointer;
+}
+.total {
+	text-transform: uppercase;
+	font-family: Bebas Neue, arial , sans-serif;
+	font-size: 40px;
+	color: #7D8581;
+}
+.price {
+	color: #50ADCC;
+	font-weight: normal;
+}
+.buy {
+	color: white;
+	padding: 15px 25px;
+	background: rgb(51,168,69);
+	border: none;
+	border-radius: 30px;
+	font-size: 20px;
+	cursor: pointer;
+}
+.play {
+	font-family: bebas Neue, arial, sans-serif;
+	color: rgb(125,178,198);
+}
+.test {
+	background: rgb(235,244,247);
+	border: 1px solid rgb(209,229,236);
+	margin: 4px 13px;
+}

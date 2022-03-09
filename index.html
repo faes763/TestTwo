@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+	<title>Окно лицензий</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<div class="container">
+		<div class="item test">
+			<div class="text"><input type="radio" name="sell" id="one" value="13" checked><label for="one">license plan #1</label></div> <p>$13 per license</p>
+		</div>
+		<div class="item">
+			<div><input type="radio" name="sell" id="two" value="22"><label for="two">license plan #2</label></div> <p>$22 per license</p>
+		</div>
+		<div class="item">
+			<div><input type="radio" name="sell" id="three"value="34"><label for="three">license plan #3</label></div><p>$34 per license</p>
+		</div>
+		<p>Number of licenses: 
+			<select>
+				<option>3</option>
+				<option>5</option>
+				<option>10</option>
+			</select>
+		</p>
+		<hr>
+		<h1 class="total">Total: <span class="price">$39</span></h1>
+		<button class="buy" onclick="window.open('https://www.youtube.com')">Buy Now</button>
+		<p class="play">selected play: <span class="selected">ONE</span></p>
+	</div>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
